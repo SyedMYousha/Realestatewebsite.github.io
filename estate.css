@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+  
+}
+
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.73em;
+}
+
+
+.txt-primary {
+    color: #4CAF50;
+}
+
+.txt-secondary {
+    color: #fff;
+}
+
+.txt-head {
+    color: #4CAF50;
+}
+
+                                  /*  | NAVBAR | NAVBAR | NAVBAR | NAVBAR | */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-01 {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+#navbar {
+     background-color: #1A1A1D ;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    margin-top: 20px;
+    float: left;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul a {
+    text-decoration: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: #3b3b42 ;
+    color: #4CAF50;
+    transition: 0.3s all ease-in;
+
+}
+
+
+/*HEADER  ||||  HEADER  */
+
+#header {
+    height: 65vh;
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-landscaping-front-yard.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-02 {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.header-txt {
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* BELOW CODES FOR SEARCH CONTAINER | COPIED FROM CGPT */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container form {
+    display: flex;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  .search-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+/* -------------------------------------------  */
+
+/* WHAT SECTION */
+
+.m-heading {
+    font-size: 30px;
+}
+
+.bg-ligth {
+    background-color: #eee;
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#what {
+    clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+    padding-bottom: 5rem;
+    padding-top: 1.2rem;
+}
+
+#what .boxes {
+    display: flex;
+    text-align: center;
+}
+
+#what .boxes .box {
+    flex: 1;
+    padding: 2rem;
+}
+
+#what .boxes i {
+    background-color: #93cb52;
+    border-radius: 50%;
+    padding: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#what .boxes h3 {
+    font-size: 1.2rem;
+}
+
+
+/* WHO SECTION */
+
+#who {
+    display: flex;
+    height: 80vh;
+    margin-top: -4rem;
+    
+}
+
+#who div {
+    flex: 1; 
+}
+
+#who div:first-child {
+    flex: 2;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #eee;
+}
+
+#who .who-img {
+    background-image: url(https://img.freepik.com/free-vector/corporate-meeting-employees-cartoon-characters-discussing-business-strategy-planning-further-actions-brainstorming-formal-communication-seminar-concept-illustration_335657-2035.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#who .who-content {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+#who .who-content h3 {
+    margin-bottom: 1.2rem;
+}
+
+#who .who-content ul li {
+    margin-bottom: 1.2rem;
+    border-bottom: #eee 1px dotted;
+    width: 26rem;
+    padding: 0.5rem
+}
+
+#who .who-content ul li:last-child {
+    border: none;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+
+
+
